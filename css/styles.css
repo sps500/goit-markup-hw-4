@@ -423,7 +423,7 @@ height: 100%;
 background: var(--IRIS, #4D5AE5);
 overflow: auto;
 color: var(--CLOUD, #F4F4FD);
-padding: 40px 32px 164px 32px;
+padding: 40px 32px;
 
 font-size: 16px;
 font-weight: 400;
@@ -552,6 +552,8 @@ gap: 16px;
    gap: 16px;
    display: flex; 
 }
-.footer-hover:hover {
-background-color: #31d0aa; 
-}
+.footer-hover:hover  {
+  background-color: #31d0aa; 
+  }
+  .footer-hover:focus {
+    background-color: #31d0aa; }
